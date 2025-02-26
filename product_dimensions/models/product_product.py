@@ -6,9 +6,9 @@ from odoo import api, fields, models
 class ProductProduct(models.Model):
     _inherit = "product.product"
 
-    product_length = fields.Float("length")
-    product_height = fields.Float("height")
-    product_width = fields.Float("width")
+    product_length = fields.Float("Largo")
+    product_height = fields.Float("Alto")
+    product_width = fields.Float("Ancho")
     dimensional_uom_id = fields.Many2one(
         "uom.uom",
         "Dimensional UoM",
