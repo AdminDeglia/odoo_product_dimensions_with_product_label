@@ -12,13 +12,13 @@
                 <div class="text-center o_label_left_column">
                     <div class="o_label_images" style="display: flex; flex-direction: column; gap: 15px;">
                         <div class="o_label_image" style="width: 15mm; height: 10mm; text-align: center; line-height: 10mm;">
-                            <img src="https://raw.githubusercontent.com/AdminDeglia/odoo_product_dimensions_with_product_label/74ee011c64418a8996ce109805cc2c51af8d2326/Symbol_Resin_Code_4.svg?token=BMVFLDDAIACOGEHD7LUPHZTHX5SFC" alt="Product Image1" style="height: 4em;"/>
+                            <img src="https://raw.githubusercontent.com/AdminDeglia/odoo_product_dimensions_with_product_label/ef2acd906621a4561225df0dd1d235682ca15023/Symbol_Resin_Code_4.svg" alt="Product Image1" style="height: 4em;"/>
                         </div>
                         <div class="o_label_image" style="width: 15mm; height: 10mm; text-align: center; line-height: 10mm;">
-                            <img src="https://github.com/AdminDeglia/odoo_product_dimensions_with_product_label/blob/17.0/images.jpg" alt="Product Image2" style="height: 4em;"/>
+                            <img src="https://github.com/AdminDeglia/odoo_product_dimensions_with_product_label/blob/17.0/images.jpg?raw=true" alt="Product Image2" style="height: 4em;"/>
                         </div>
                         <div class="o_label_image" style="width: 15mm; height: 10mm; text-align: center; line-height: 10mm; margin-top: 5px">
-                            <img src="https://github.com/AdminDeglia/odoo_product_dimensions_with_product_label/blob/17.0/icone-de-recyclage-et-de-durabilite-noir.png" alt="Product Image3" style="height: 4em;"/>
+                            <img src="https://github.com/AdminDeglia/odoo_product_dimensions_with_product_label/blob/17.0/icone-de-recyclage-et-de-durabilite-noir.png?raw=true" alt="Product Image3" style="height: 4em;"/>
                         </div>
                         <div style="margin-top: 10px" t-out="barcode" t-options="{'widget': 'barcode', 'symbology': 'auto', 'img_style': barcode_size}"/>
                         <span class="text-center" t-out="barcode"/>
@@ -39,7 +39,7 @@
                         <div>Volumen: <t t-esc="product.product_length * product.product_width * product.product_height"/></div>
                     </div>
                     <div class="o_label_qr_image" style="margin-top: 5px; text-align: center;">
-                        <img src="https://github.com/AdminDeglia/odoo_product_dimensions_with_product_label/blob/17.0/Logo_valenciana.png" alt="Logo Valenciana" style="width: 10mm; height: 10mm;"/>
+                        <img src="https://github.com/AdminDeglia/odoo_product_dimensions_with_product_label/blob/17.0/Logo_valenciana.png?raw=true" alt="Logo Valenciana" style="width: 10mm; height: 10mm;"/>
                     </div>
                 </div>
             </div>
