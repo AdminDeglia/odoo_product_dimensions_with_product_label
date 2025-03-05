@@ -35,7 +35,7 @@
                     <t t-set="lot_producing" t-value="production_data.get(product.id)"/>
                     <t t-if="lot_producing"/>
                     <div class="o_label_qr" style="width: 50mm; height: 30mm; background: white; border: 1px solid black; margin-bottom:30px; margin-top:5px">
-                        <div>N° Lote: <t t-esc="lot_producing"/></div>
+                        <div>N°Lote: <t t-esc="lot_producing"/></div>
                         <div>Largo: <t t-esc="product.product_length"/></div>
                         <div>Ancho: <t t-esc="product.product_width"/></div>
                         <div>Alto: <t t-esc="product.product_height"/></div>
